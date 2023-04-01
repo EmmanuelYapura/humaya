@@ -1,0 +1,610 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+    /* Section portada */
+    .hero {
+        background-image: url('./IMAGENES/Central/imagenCentral.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+
+    .textHero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        padding: 140px 20px;
+        font-family: Roboto;
+    }
+
+    .tituloHero {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .parrafoHero {
+        color: white;
+        font-size: 20px;
+    }
+
+    .btnHero {
+        padding: 14px 50px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.493);
+        border: none;
+        border-radius: 20px;
+        margin-top: 60px;
+    }
+
+    .btnHero:hover {
+        border: 1px solid white;
+    }
+
+    /* Section calidad */
+
+    .calidad {
+        background-color: rgb(68, 67, 67);
+        padding: 30px 0;
+    }
+
+    .tituloCalidad {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 38px;
+        font-family: Roboto;
+        color: white;
+    }
+
+    .divCalidad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardIconos {
+        margin: 15px;
+    }
+
+    .icono {
+        width: 135px;
+        height: 135px;
+    }
+
+    .textoIcono {
+        color: burlywood;
+        padding-top: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* Section productos */
+
+    .productos {
+        background-color: rgb(100, 100, 100);
+    }
+
+    .productos h1 {
+        color: burlywood;
+        font-family: Roboto;
+        padding: 20px 0;
+    }
+
+    .contenedorProductos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoProducto {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tituloProducto {
+        color: burlywood;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 30px 0;
+    }
+
+    .textoProducto {
+        color: white;
+        padding: 10px 45px 0;
+    }
+
+    .presentacionProducto {
+        color: burlywood;
+        letter-spacing: 2px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .btnProducto {
+        color: burlywood;
+        background-color: black;
+        border: 5px solid burlywood;
+        padding: 8px 25px;
+        margin: 10px 0 30px;
+    }
+
+    /* Section quienes somos */
+
+    .quienesSomos {
+        background-color: burlywood;
+        padding: 40px 30px 0;
+    }
+
+    .contenedorQuienesSomos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tituloQuienesSomos {
+        color: white;
+        font-size: 40px;
+        padding: 5px 0 15px;
+        text-align: center;
+    }
+
+    .parrafoQuienesSomos {
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .nuestrosClientes {}
+
+    .tituloNuestrosClientes {
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        padding: 5px 0 15px;
+    }
+
+    .ordenCliente {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardIconosClientes {
+        margin: 0 15px;
+    }
+
+    .iconoCliente {
+        width: 145px;
+        height: 150px;
+    }
+
+    .textoIconoClientes {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0;
+        text-align: center;
+        color: black;
+    }
+
+
+    /* Contacto */
+
+    .contacto {
+        padding: 35px 0 15px;
+    }
+
+    .contacto h2 {
+        color: burlywood;
+        padding: 20px 0 10px;
+    }
+
+    .containerImg {}
+
+    .imgContacto {}
+
+    .formulario {}
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 55px;
+    }
+
+    input,
+    textarea {
+        background-color: rgb(224, 168, 95);
+    }
+
+    input {
+        padding: 4px 0;
+    }
+
+    label {
+        font-size: 20px;
+        color: rgb(224, 168, 95);
+        margin: 5px 0;
+    }
+
+    .btnsForm {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .btnFormulario {
+        color: burlywood;
+        background-color: black;
+        border: 4px solid burlywood;
+        padding: 8px 15px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: black;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+
+    }
+
+    .footer-img {
+        height: 100px;
+        margin-left: 40px;
+    }
+
+    .menuFooter {
+        margin: 0 70px;
+    }
+
+    .tituloFooter {
+        color: white;
+        font-size: 22px;
+    }
+
+    .listaFooter {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .listaFooter li {
+        color: white;
+        font-size: 18px;
+    }
+
+    .listaFooter li:hover {
+        color: burlywood;
+        cursor: pointer;
+    }
+
+}
+
+/* Section portada */
+.hero {
+    background-image: url('./IMAGENES/Central/imagenCentral.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 490px;
+    padding: 200px 40px;
+    font-family: Roboto;
+}
+
+.tituloHero {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.parrafoHero {
+    color: white;
+    font-size: 23px;
+}
+
+.btnHero {
+    padding: 14px 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    border: none;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.btnHero:hover {
+    border: 1px solid white;
+}
+
+/* Section calidad */
+.calidad {
+    background-color: rgb(68, 67, 67);
+    padding: 40px 0;
+}
+
+.tituloCalidad {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 45px;
+    font-family: Roboto;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.divCalidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardIconos {
+    margin: 35px;
+}
+
+.icono {
+    width: 140px;
+    height: 140px;
+}
+
+.textoIcono {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: burlywood;
+    text-align: center;
+}
+
+/* Section productos */
+
+.productos {
+    background-color: rgb(100, 100, 100);
+}
+
+.productos h1 {
+    color: burlywood;
+    font-family: Roboto;
+    padding: 30px 0;
+    font-size: 40px;
+}
+
+.contenedorProductos {
+    display: flex;
+}
+
+.contenedorProductos img{
+    width: 50%;
+}
+
+.infoProducto {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.tituloProducto {
+    font-size: 36px;
+    padding: 30px 0;
+    color: burlywood;
+    text-align: center;
+}
+
+.textoProducto {
+    font-size: 20px;
+    padding: 10px 45px 0;
+    color: white;
+}
+
+.presentacionProducto {
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: burlywood;
+    text-align: center;
+}
+
+.btnProducto {
+    color: burlywood;
+    background-color: black;
+    border: 5px solid burlywood;
+    padding: 10px 30px;
+    margin: 10px 0 30px;
+}
+
+/* Section quienes somos */
+
+.quienesSomos {
+    background-color: burlywood;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorQuienesSomos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    margin-top: -40px;
+    width: 50%;
+}
+
+.tituloQuienesSomos {
+    color: white;
+    font-size: 45px;
+    font-family: Roboto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.parrafoQuienesSomos {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.nuestrosClientes{
+    width: 50%;
+    padding: 20px 0;
+}
+
+.tituloNuestrosClientes {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: Roboto;
+    padding: 20px 0;
+}
+
+.ordenCliente {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardIconosClientes {
+    margin: 0 10px;
+}
+
+.iconoCliente {
+    width: 155px;
+    height: 155px;
+}
+
+.textoIconoClientes {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+}
+
+/* Contacto  CONTINUAR*/
+
+.contacto {
+    padding: 35px 0 15px;
+}
+
+.contenedor-contacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto h2 {
+    color: burlywood;
+    padding-bottom:30px;
+}
+
+.containerImg {
+}
+
+.imgContacto {
+    width: 620px;
+}
+
+.formulario {
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+input,
+textarea {
+    background-color: rgb(224, 168, 95);
+}
+
+input {
+    padding: 5px 0;
+}
+
+label {
+    font-size: 20px;
+    color: rgb(224, 168, 95);
+    margin: 5px 0;
+}
+
+.btnsForm {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.btnFormulario {
+    color: burlywood;
+    background-color: black;
+    border: 4px solid burlywood;
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+ /* Footer */
+ footer {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+.footer-img {
+    height: 100px;
+    margin-left: 40px;
+}
+
+.menuFooter {
+    margin: 0 70px;
+}
+
+.tituloFooter {
+    color: white;
+    font-size: 22px;
+}
+
+.listaFooter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listaFooter li {
+    color: white;
+    font-size: 18px;
+}
+
+.listaFooter li:hover {
+    color: burlywood;
+    cursor: pointer;
+}
