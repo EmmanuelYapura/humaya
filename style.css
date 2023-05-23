@@ -5,7 +5,6 @@
 }
 
 @media only screen and (max-width: 600px) and (min-width: 400px) {
-
     /* Section portada */
     .hero {
         background-image: url('./IMAGENES/Central/imagenCentral.png');
@@ -20,8 +19,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
         width: 500px;
-        padding: 140px 20px;
+        padding: 140px 10px;
         font-family: Roboto;
     }
 
@@ -29,6 +29,7 @@
         color: white;
         font-size: 40px;
         margin-bottom: 40px;
+        margin-left: -40px;
     }
 
     .parrafoHero {
@@ -42,6 +43,7 @@
         background-color: rgba(0, 0, 0, 0.493);
         border: none;
         border-radius: 20px;
+        margin-left: -30px;
         margin-top: 60px;
     }
 
@@ -53,12 +55,12 @@
 
     .calidad {
         background-color: rgb(68, 67, 67);
-        padding: 30px 0;
+        padding: 50px 0;
     }
 
     .tituloCalidad {
         text-align: center;
-        padding: 20px 0;
+        padding: 20px 10px;
         font-size: 38px;
         font-family: Roboto;
         color: white;
@@ -71,7 +73,7 @@
     }
 
     .cardIconos {
-        margin: 15px;
+        margin: 10px;
     }
 
     .icono {
@@ -85,7 +87,6 @@
         font-weight: 600;
         text-align: center;
     }
-
     /* Section productos */
 
     .productos {
@@ -95,7 +96,7 @@
     .productos h1 {
         color: burlywood;
         font-family: Roboto;
-        padding: 20px 0;
+        padding: 10px 0;
     }
 
     .contenedorProductos {
@@ -142,13 +143,14 @@
 
     .quienesSomos {
         background-color: burlywood;
-        padding: 40px 30px 0;
+        padding: 0px;
     }
 
     .contenedorQuienesSomos {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .tituloQuienesSomos {
@@ -164,7 +166,9 @@
         font-weight: 600;
     }
 
-    .nuestrosClientes {}
+    .nuestrosClientes {
+        display: none;
+    }
 
     .tituloNuestrosClientes {
         text-align: center;
@@ -208,7 +212,9 @@
         padding: 20px 0 10px;
     }
 
-    .containerImg {}
+    .containerImg {
+        display: none;
+    }
 
     .imgContacto {}
 
@@ -395,7 +401,7 @@
 }
 
 .contenedorProductos img{
-    width: 50%;
+    width: 100%;
 }
 
 .infoProducto {
@@ -404,7 +410,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 .tituloProducto {
@@ -450,8 +456,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 50px;
-    margin-top: -40px;
-    width: 50%;
+    margin: 40px 0;
+    width: 100%;
 }
 
 .tituloQuienesSomos {
